@@ -17,3 +17,8 @@ persian-enterprise-rag = "persian_enterprise_rag:main"
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
